@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Temporary Raymond Moore profile-photo placeholder</title>
+  <desc id="desc">A neutral square graphic with the initials RM. It is not a photograph.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172e61"/>
+      <stop offset="1" stop-color="#281b4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="56" fill="url(#background)"/>
+  <circle cx="300" cy="244" r="112" fill="#dbe4f5" opacity=".18"/>
+  <path d="M118 526c22-117 91-176 182-176s160 59 182 176" fill="#dbe4f5" opacity=".18"/>
+  <circle cx="300" cy="300" r="222" fill="none" stroke="#dbe4f5" stroke-opacity=".2" stroke-width="2"/>
+  <text x="300" y="329" fill="#fff" font-family="system-ui, sans-serif" font-size="112" font-weight="750" text-anchor="middle">RM</text>
+  <text x="300" y="548" fill="#c7d3e8" font-family="system-ui, sans-serif" font-size="19" letter-spacing="4" text-anchor="middle">PHOTO PLACEHOLDER</text>
+</svg>
