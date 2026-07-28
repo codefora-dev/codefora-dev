@@ -205,11 +205,39 @@ h3 { font-size: 1.05rem; }
   line-height: 1.12;
   letter-spacing: .01em;
 }
-.story-hero__lead {
+.story-hero__pivot {
   max-width: 46rem;
-  margin-bottom: 0;
+  margin: 0 0 .5rem;
+  color: var(--text-on-dark);
+  font-weight: 600;
+  line-height: 1.7;
+}
+.story-hero__question {
+  max-width: 42rem;
+  margin: 0 0 1.15rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(255,255,255,.2);
+  border-left: 3px solid #8fa6ff;
+  border-radius: var(--radius);
+  color: var(--text-on-dark);
+  background: rgba(255,255,255,.08);
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.35;
+}
+.story-hero__summary {
+  max-width: 46rem;
+  margin: 0 0 .65rem;
   color: var(--text-on-dark-secondary);
   font-size: 1rem;
+  line-height: 1.7;
+}
+.story-hero__invitation {
+  max-width: 46rem;
+  margin: 0;
+  color: var(--text-on-dark);
+  font-size: 1rem;
+  font-weight: 600;
   line-height: 1.7;
 }
 .story-nav {
@@ -254,6 +282,23 @@ h3 { font-size: 1.05rem; }
   color: var(--text-primary) !important;
   font-size: clamp(1.1rem, 1.8vw, 1.35rem) !important;
   line-height: 1.6;
+}
+.story-beat-sequence {
+  margin: 1.75rem 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--accent);
+}
+.story-beat-sequence p { margin: 0 0 .75rem; }
+.story-beat-sequence p:last-child { margin-bottom: 0; }
+.story-beat-sequence .story-response-label {
+  margin-bottom: .3rem;
+  font-weight: 600;
+}
+.story-beat-sequence .story-response {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
 }
 blockquote {
   margin: 1.5rem 0 0;
@@ -400,6 +445,7 @@ blockquote {
   .story-hero,
   .story-article { padding-left: 1.25rem; padding-right: 1.25rem; }
   .story-hero { padding-top: 3rem; padding-bottom: 3rem; }
+  .story-hero__title { font-size: 1.75rem; }
   .principle-grid, .qualification-grid { grid-template-columns: 1fr; }
   .competency-list div, .timeline li { grid-template-columns: 1fr; gap: .35rem; }
 }
@@ -433,7 +479,11 @@ blockquote {
   .profile-sidebar section, .story-nav, .skip-link { display: none; }
   .story-hero { padding: .35in 0; color: #000; background: #fff; }
   .story-hero__title { font-size: 28pt; }
-  .story-hero__lead { color: #222; }
+  .story-hero__pivot, .story-hero__question,
+  .story-hero__summary, .story-hero__invitation {
+    color: #222;
+    background: #fff;
+  }
   .story-article { padding: 0; }
   .story-section {
     grid-template-columns: .35in 1fr;
