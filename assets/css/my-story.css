@@ -42,7 +42,9 @@ a:focus-visible {
 }
 img { display: block; max-width: 100%; }
 h1, h2, h3, p { margin-top: 0; }
-h1, h2, h3 { line-height: 1.2; letter-spacing: -.025em; }
+/* Positive letter spacing is a targeted display-heading correction, not a
+   default body-text treatment. */
+h1, h2, h3 { line-height: 1.2; letter-spacing: normal; }
 h1 { margin-bottom: .4rem; font-size: clamp(1.4rem, 1.8vw, 1.8rem); }
 h2 { font-size: clamp(1.45rem, 2vw, 2rem); }
 h3 { font-size: 1.05rem; }
@@ -161,7 +163,7 @@ h3 { font-size: 1.05rem; }
   font-size: clamp(2rem, 3.5vw, 3.25rem);
   font-weight: 780;
   line-height: 1.12;
-  letter-spacing: -.04em;
+  letter-spacing: .01em;
 }
 .story-hero__lead {
   max-width: 46rem;
@@ -198,6 +200,7 @@ h3 { font-size: 1.05rem; }
   margin: 0 0 1rem;
   font-size: clamp(1.45rem, 2vw, 2rem);
   line-height: 1.2;
+  letter-spacing: 0;
 }
 .section-number {
   display: block;
@@ -292,6 +295,7 @@ blockquote {
 .story-closing h2 {
   font-size: clamp(1.6rem, 2.5vw, 2.25rem);
   line-height: 1.2;
+  letter-spacing: 0;
 }
 .story-closing p {
   color: var(--text-on-dark-secondary);
