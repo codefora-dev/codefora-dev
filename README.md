@@ -48,8 +48,9 @@ underlying responsibility.
 | --- | --- |
 | 2010 | Began modifying HTML and exploring PHP applications. |
 | 2010–2013 | Learned through source-code study, reverse engineering, experimentation, pattern recognition, and debugging. |
-| 2013 | Began working with Product Vendors and Dokan, and first attempted a BuddyPress–Dokan bridge. |
-| July 2014 | Followed the release of WC Vendors after Jamie Madden and Ben forked the discontinued Product Vendors project. |
+| 2013 | Began working with early WooCommerce multivendor solutions, including Product Vendors and Dokan. |
+| 2013 | Recognized BuddyPress as the missing social layer for the marketplace experience I wanted to create. |
+| 2013 | Made the first attempt to integrate BuddyPress with Dokan. |
 | 2017 | Returned to the integration as BuddyPress and Dokan had matured. |
 | 2025 | Completed the stable core Dokan Buddy bridge. |
 | 2026 | Expanded the work into the broader Codefora ecosystem, using AI as an engineering accelerator. |
