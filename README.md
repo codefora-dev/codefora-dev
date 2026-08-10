@@ -1,4 +1,4 @@
-# Ray Moore
+# Raymond Moore
 
 **Founder & WordPress Software Architect**
 
@@ -6,8 +6,8 @@
 
 ### Building WordPress products that remain understandable as they grow.
 
-I'm Ray Moore, founder of Codefora and a WordPress software architect focused
-on marketplace, community, and developer systems.
+I'm Raymond Moore, founder of Codefora and a WordPress software architect
+focused on marketplace, community, and developer systems.
 
 Codefora is a growing ecosystem of products with explicit ownership boundaries.
 It is organized around a simple principle: software should explain its
@@ -116,8 +116,17 @@ the architectural starting point for the broader Codefora ecosystem.
 
 [Read the full developer story](my-story.html).
 
----
+## Still building
 
-**Current direction:** complete evidence-backed product certification, continue
-bounded productization, and make engineering records public when their claims
-and destinations are ready.
+Codefora is being built in the open carefully—not by presenting unfinished work
+as finished, but by making the architecture, evidence, and reasoning behind
+each product easier to follow as it becomes ready to share.
+
+The next milestone is product stability. The longer direction is larger:
+products that can describe what they are, what they own, how they relate, and
+enough of their history that the next developer doesn't have to begin from
+memory.
+
+Build it. Understand it. Leave a trail.
+
+— Raymond Moore
