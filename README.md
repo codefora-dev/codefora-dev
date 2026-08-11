@@ -54,9 +54,11 @@ still understand.
 
 ## What Codefora is building :
 
-| Project | Purpose | Status |
+<!-- CODEFORA:PRODUCT-STATUS:START -->
+
+| Project | Purpose | Public state |
 | --- | --- | --- |
-| **Dokan Buddy** | Connect Dokan vendor journeys with BuddyPress or BuddyBoss community identity. | Private · Stability assessment |
+| **Dokan Buddy** | Connect Dokan vendor journeys with BuddyPress or BuddyBoss community identity. | Stability assessment |
 | **Dokan Buddy Pro** | Extend the bridge into richer vendor, store, product, and dashboard experiences. | Private development |
 | **Market Buddy** | Build marketplaces as a layer above individual vendor stores. | Private development |
 | **Codefora DevTools** | Give diagnostics product and architectural context. | Internal development |
@@ -64,7 +66,9 @@ still understand.
 | **Theme & Site** | Present the ecosystem without owning product behavior. | Internal development |
 | **Command Center** | Make governed development work and evidence navigable. | Internal development |
 
-Status describes current evidence—not public availability or release readiness.
+Public state is derived from Codefora Foundation evidence and changes only at material product milestones.
+
+<!-- CODEFORA:PRODUCT-STATUS:END -->
 
 ## Engineering principles :
 
