@@ -52,7 +52,7 @@ Codefora takes the opposite approach:
 The goal isn't more abstraction. It's software a developer can enter later and
 still understand.
 
-## What Codefora is building
+## What Codefora is building :
 
 | Project | Purpose | Status |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ still understand.
 
 Status describes current evidence—not public availability or release readiness.
 
-## Engineering principles
+## Engineering principles :
 
 - **Ownership before convenience** — Behavior belongs with the product or
   provider responsible for its truth.
@@ -77,7 +77,7 @@ Status describes current evidence—not public availability or release readiness
 - **Maintainability before shortcuts** — Architecture should remain
   understandable to the next developer, not only its original author.
 
-## How Codefora builds
+## How Codefora builds :
 
 Codefora development uses bounded work orders, explicit lifecycle states,
 validation evidence, owner acceptance, and closure records. Implemented,
@@ -95,7 +95,7 @@ standards and governance. Product repositories own product-specific evidence.
 Broader automation and orchestration remain evidence-gated rather than being
 presented as completed functionality.
 
-## Product stability
+## Product stability :
 
 Codefora now has a formal Product Stability Certification protocol covering
 architectural, structural, runtime, compatibility, packaging, and release
@@ -103,7 +103,7 @@ evidence. Dokan Buddy is the first product in that process. No product is
 labeled **Certified Stable** until the required evidence and owner decision
 exist.
 
-## Public development
+## Public development :
 
 Codefora is transitioning from private product development toward
 evidence-backed public releases. Public repositories, architecture records,
@@ -115,7 +115,7 @@ Today, the public surface includes this
 [Dokan reference fork](https://github.com/codefora-dev/dokan) that is not a
 Codefora product release.
 
-## About the developer
+## About the developer :
 
 I'm a self-taught WordPress software architect who began modifying HTML and
 studying PHP applications in 2010. I learned primarily by taking working
@@ -126,7 +126,7 @@ Dokan, and a long-running effort to connect marketplace commerce with community
 identity. I completed the core Dokan Buddy bridge in 2025, and that work became
 the architectural starting point for the broader Codefora ecosystem.
 
-## Still building
+## Still building :
 
 Codefora is being built in the open carefully—not by presenting unfinished work
 as finished, but by making the architecture, evidence, and reasoning behind
@@ -137,6 +137,6 @@ products that can describe what they are, what they own, how they relate, and
 enough of their architectural history that the next developer can understand
 not only what the code does, but why the system was built that way.
 
-Build it. Understand it. Leave a trail.
+Build with purpose. Understand the system. Preserve the why.
 
 — Raymond Moore
