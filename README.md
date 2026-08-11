@@ -6,18 +6,21 @@
 
 ### Building WordPress products that remain understandable as they grow.
 
-I'm Raymond Moore, founder of Codefora and a WordPress software architect
-focused on marketplace, community, and developer systems.
+I'm Raymond Moore, the founder of Codefora. I'm a WordPress software architect
+focused on marketplace, community, and developer system integrations.
 
-Codefora is a growing ecosystem of products with explicit ownership boundaries.
-It is organized around a simple principle: software should explain its
-responsibilities through its architecture—not through the memory of the person
-who built it.
+Codefora is a growing WordPress engineering ecosystem built around explicit
+ownership, interoperable products, evidence-backed development, and architecture
+that remains understandable as the system evolves.
 
-## Software should understand itself
+It is organized around a simple principle:
 
-> Software should understand itself before every future developer has to
-> reconstruct its intent.
+> Software should explain its responsibilities through its architecture—not
+> through the memory of the person who built it.
+
+## What does it mean for software to understand itself?
+
+**Most software preserves implementation. Codefora preserves understanding.**
 
 Codefora products increasingly carry explicit knowledge about their place in
 the ecosystem:
@@ -27,10 +30,11 @@ identity → ownership → capabilities → requirements → relationships
          → lifecycle → evidence → direction
 ```
 
-Foundation establishes shared engineering rules. Products retain their own
-runtime and architectural truth. DevTools can consume product-supplied context
-and runtime evidence. Command Center can make governed work and relationships
-navigable without replacing those authorities.
+- **Foundation** establishes shared engineering rules.
+- **Products** retain their own runtime and architectural truth.
+- **DevTools** can consume product-supplied context and runtime evidence.
+- **Command Center** can make governed work and relationships navigable,
+  without replacing those authorities.
 
 ## Why Codefora?
 
@@ -38,10 +42,12 @@ WordPress systems become difficult to maintain when plugins, themes, providers,
 templates, and custom integrations quietly assume responsibility for one
 another.
 
-Codefora takes the opposite approach. Products own their behavior. Providers
-remain authoritative for their data. Integrations describe relationships
-instead of hiding them. Documentation and validation evolve with the
-implementation.
+Codefora takes the opposite approach:
+
+- Products own their behavior.
+- Providers remain authoritative for their data.
+- Integrations describe relationships instead of hiding them.
+- Documentation and validation evolve with the implementation.
 
 The goal isn't more abstraction. It's software a developer can enter later and
 still understand.
@@ -78,6 +84,12 @@ validation evidence, owner acceptance, and closure records. Implemented,
 validated, accepted, released, proposed, and future are deliberately treated as
 different claims.
 
+The decision order is intentionally simple:
+
+```text
+Idea → Governance → Architecture → Blueprint → Implementation
+```
+
 Git repositories preserve implementation history. Foundation holds shared
 standards and governance. Product repositories own product-specific evidence.
 Broader automation and orchestration remain evidence-gated rather than being
@@ -98,8 +110,8 @@ evidence-backed public releases. Public repositories, architecture records,
 documentation, and releases will appear here as each product reaches the
 appropriate readiness threshold.
 
-Today, the public surface includes this [profile repository](https://github.com/codefora-dev/codefora-dev),
-its [developer-story source](my-story.html), and a public
+Today, the public surface includes this
+[profile repository](https://github.com/codefora-dev/codefora-dev) and a public
 [Dokan reference fork](https://github.com/codefora-dev/dokan) that is not a
 Codefora product release.
 
@@ -114,8 +126,6 @@ Dokan, and a long-running effort to connect marketplace commerce with community
 identity. I completed the core Dokan Buddy bridge in 2025, and that work became
 the architectural starting point for the broader Codefora ecosystem.
 
-[Read the full developer story](my-story.html).
-
 ## Still building
 
 Codefora is being built in the open carefully—not by presenting unfinished work
@@ -124,8 +134,8 @@ each product easier to follow as it becomes ready to share.
 
 The next milestone is product stability. The longer direction is larger:
 products that can describe what they are, what they own, how they relate, and
-enough of their history that the next developer doesn't have to begin from
-memory.
+enough of their architectural history that the next developer can understand
+not only what the code does, but why the system was built that way.
 
 Build it. Understand it. Leave a trail.
 
