@@ -58,8 +58,8 @@ still understand.
 
 | Project | Purpose | Public state |
 | --- | --- | --- |
-| **Dokan Buddy** | Connect Dokan vendor journeys with BuddyPress or BuddyBoss community identity. | Stability assessment |
-| **Dokan Buddy Pro** | Extend the bridge into richer vendor, store, product, and dashboard experiences. | Private development |
+| **Shop Buddy** | Connect Dokan vendor journeys with BuddyPress or BuddyBoss community identity. | Stability assessment |
+| **Shop Buddy Pro** | Extend the bridge into richer vendor, store, product, and dashboard experiences. | Private development |
 | **Market Buddy** | Build marketplaces as a layer above individual vendor stores. | Private development |
 | **Codefora DevTools** | Give diagnostics product and architectural context. | Internal development |
 | **Foundation** | Define shared architecture, evidence, and engineering standards. | Internal authority |
@@ -127,8 +127,9 @@ systems apart, tracing their behavior, and understanding why they worked.
 
 That practice led through WooCommerce marketplace development, BuddyPress,
 Dokan, and a long-running effort to connect marketplace commerce with community
-identity. I completed the core Dokan Buddy bridge in 2025, and that work became
-the architectural starting point for the broader Codefora ecosystem.
+identity. I completed the core Dokan Buddy bridge in 2025. 
+That work later evolved into Shop Buddy and became the architectural starting point
+for the broader Codefora ecosystem.
 
 ## Still building :
 
